@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hosein\\Toaster\\": "packages/Hoseininjast/Toaster/src"
+            "Hosein\\Toaster\\": "packages/hoseininjast/toaster/src"
         }
     },
     "extra": {
