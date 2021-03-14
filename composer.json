@@ -1,0 +1,19 @@
+{
+    "name": "hosein/toaster",
+    "description": "a laravel package for creating toast",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hosein",
+            "email": "hoseinfordev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+
+        }
+    },
+    "require": {}
+}
