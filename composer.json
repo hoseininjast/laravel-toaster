@@ -1,0 +1,41 @@
+{
+    "name": "hoseininjast/toaster",
+    "description": "a laravel package for creating toast",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel-package",
+        "toaster",
+        "Toaset",
+        "notifier",
+        "toast",
+        "noty",
+        "alert"
+    ],
+    "homepage": "https://github.com/hoseininjast/laravel-toaster",
+    "authors": [
+        {
+            "name": "Hosein",
+            "email": "hoseinfordev@gmail.com",
+            "homepage": "https://hoseininjast.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "laravel/framework": "^5.4|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hosein\\Toaster\\": "packages/Hoseininjast/Toaster/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hosein\\Toaster\\ToasterServiceProvider"
+            ]
+        }
+    }
+}
