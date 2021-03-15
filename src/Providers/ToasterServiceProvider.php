@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoseininjast\Toaster;
+namespace Hoseininjast\Toaster\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class ToasterServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make(__DIR__.'/ToasterController');
-        $this->loadViewsFrom(__DIR__.'/views', 'Toaster');
+        $this->loadViewsFrom(__DIR__ . '/views', 'Toaster');
     }
 
     /**
@@ -25,7 +25,7 @@ class ToasterServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/assets/' => public_path('vendor/Hoseininjast/toaster'),
+            __DIR__ . '/assets/' => public_path('vendor/Hoseininjast/toaster'),
         ], 'Toaster-assets');
     }
 }

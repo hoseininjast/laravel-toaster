@@ -1,10 +1,8 @@
 <?php
 
-namespace Hoseininjast\Toaster;
+namespace Hoseininjast\Toaster\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use phpDocumentor\Reflection\Types\Self_;
 use Session;
 
 class ToasterController extends Controller
