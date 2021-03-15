@@ -1,6 +1,6 @@
 <?php
 
-namespace Hosein\Toaster;
+namespace Hoseininjast\Toaster;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hosein\Toaster;
+namespace Hoseininjast\Toaster;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,7 +25,7 @@ class ToasterServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/assets/' => public_path('vendor/hoseininjast/toaster'),
+            __DIR__.'/assets/' => public_path('vendor/Hoseininjast/toaster'),
         ], 'Toaster-assets');
     }
 }
