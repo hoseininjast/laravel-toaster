@@ -28,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "hoseininjast\\toaster\\src\\": "hoseininjast/toaster/src"
+            "hoseininjast\\toaster\\": "/src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "hoseininjast\\toaster\\src\\ToasterServiceProvider"
+                "Hoseininjast\\Toaster\\src\\ToasterServiceProvider"
             ]
         }
     }
