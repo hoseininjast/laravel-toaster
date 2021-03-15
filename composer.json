@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hoseininjast\\Toaster\\src\\ToasterServiceProvider"
+                "Hoseininjast\\Toaster\\ToasterServiceProvider"
             ]
         }
     }

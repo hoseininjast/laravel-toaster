@@ -13,7 +13,7 @@ class ToasterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('hoseininjast\toaster\src\ToasterController');
+        $this->app->make(__DIR__.'/ToasterController');
         $this->loadViewsFrom(__DIR__.'/views', 'Toaster');
     }
 
