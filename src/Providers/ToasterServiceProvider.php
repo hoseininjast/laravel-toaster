@@ -2,6 +2,7 @@
 
 namespace hoseininjast\toaster\Providers;
 
+use Hoseininjast\Toaster\Http\Controllers\ToasterController;
 use Illuminate\Support\ServiceProvider;
 
 class ToasterServiceProvider extends ServiceProvider
@@ -13,7 +14,8 @@ class ToasterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make(__DIR__.'/../Http/Controllers/ToasterController.php');
+        //$this->app->make(__DIR__.'/../Http/Controllers/ToasterController.php');
+        $this->app->make(ToasterController::class);
         $this->loadViewsFrom(__DIR__ . '/../views', 'Toaster');
         $this->mergeConfigFrom(
             __DIR__.'/../config/Toaster.php',

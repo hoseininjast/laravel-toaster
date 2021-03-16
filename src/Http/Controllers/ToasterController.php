@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoseininjast\Toaster\Http\Controllers;
+namespace  hoseininjast\toaster\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Session;
