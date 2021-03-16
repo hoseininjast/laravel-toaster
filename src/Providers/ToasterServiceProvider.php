@@ -2,7 +2,7 @@
 
 namespace hoseininjast\toaster\Providers;
 
-use Hoseininjast\Toaster\Http\Controllers\ToasterController;
+use hoseininjast\toaster\Http\Controllers\ToasterController;
 use Illuminate\Support\ServiceProvider;
 
 class ToasterServiceProvider extends ServiceProvider
