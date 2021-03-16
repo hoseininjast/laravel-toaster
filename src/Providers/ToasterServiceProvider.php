@@ -14,6 +14,7 @@ class ToasterServiceProvider extends ServiceProvider
      */
     public function register()
     {
+
         //$this->app->make(__DIR__.'/../Http/Controllers/ToasterController.php');
         $this->app->make(ToasterController::class);
         $this->loadViewsFrom(__DIR__ . '/../views', 'Toaster');
