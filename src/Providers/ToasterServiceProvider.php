@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoseininjast\Toaster\Providers;
+namespace hoseininjast\toaster\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,7 +17,7 @@ class ToasterServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../views', 'Toaster');
         $this->mergeConfigFrom(
             __DIR__.'/../config/Toaster.php',
-            'laravel_log_enhancer'
+            'LaravelToasterConfig'
         );
     }
 
@@ -32,7 +32,7 @@ class ToasterServiceProvider extends ServiceProvider
             __DIR__ . '/../assets/' => public_path('vendor/Hoseininjast/toaster'),
         ], 'Toaster-assets');
         $this->publishes([
-            __DIR__.'/../config/Toaster.php' => config_path('laravel_log_enhancer.php'),
-        ], 'laravel-log-enhancer-config');
+            __DIR__.'/../config/Toaster.php' => config_path('LaravelToaster.php'),
+        ], 'LaravelToaster');
     }
 }
