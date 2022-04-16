@@ -1,5 +1,5 @@
 # laravel-toaster
-* Have to mamy work to do
+* Too many work to do
 1. Make it real
 2. Synchronize settings with config files
 3. Add a `readme.md`
